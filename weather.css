@@ -1,0 +1,65 @@
+
+body {
+    background: linear-gradient(to bottom right, #5dc4f7, #044a6d);
+    font-family: Century Gothic, sans-serif;
+    color: white;
+}
+
+#zipSearch {
+    border-radius: 25px;
+    font-family: Century Gothic, san-serif;
+}
+
+#searchButton {
+    border: none;
+    border-radius: 25px;
+    background-color: #51c0f7;
+    color: white;
+    font-family: Century Gothic, sans-serif;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button.arrow {
+    border-radius: 100%;
+    border: none;
+
+}
+
+div.condition {
+    display: inline-block;
+}
+
+#weatherNow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+div.day {
+    border-radius: 25px;
+    background-color: #4ab0e2;
+    color: white;
+    font-family: Century Gothic, sans-serif;
+    width: 15%;
+    text-align: center;
+}
+
+#tenDays {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
